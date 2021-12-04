@@ -26,7 +26,7 @@ body {
 
 @media (min-width: 720px) {
 
-    /** Größerer Viewport: Tablett **/
+    /** Größerer Viewport: Tablet **/
     .content {
         width    : 80%;
         font-size: 1rem;
@@ -49,15 +49,15 @@ body {
     margin-left : auto;
     margin-right: auto;
     display     : block;
+    padding-top: 20px;
 }
 
 
 @media (min-width: 720px) {
 
-    /** Größerer Viewport: Tablett **/
+    /** Größerer Viewport: Tablet **/
     .img-header {
         width  : 80%;
-        padding: 10px;
     }
 }
 
@@ -66,7 +66,6 @@ body {
     /** Großer Viewport: Browserfenster **/
     .img-header {
         width  : 60%;
-        padding: 15px;
     }
 }
 
@@ -136,6 +135,8 @@ tbody tr:hover {
     display           : flex;
     flex-wrap         : wrap;
     justify-content   : center;
+    gap               : 1.5rem;
+
     /*background-color: cornflowerblue;*/
 }
 
@@ -147,9 +148,9 @@ tbody tr:hover {
 }
 
 .box-teaser {
-    flex              : 0 1 440px;
-    /* no stretching */
-    margin            : 10px;
+    flex              : 1 1 345px;
+    /* stretching */
+    /* margin            : 10px; */
     /*background-color: lightcyan;*/
     border-style      : solid;
     border-width      : 2px;
