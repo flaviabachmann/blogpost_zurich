@@ -1,21 +1,33 @@
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    overflow-x: hidden;
-    
+    margin     : 0;
+        /* overflow-x : hidden; */
+
 }
+
+.content {
+    max-width       : 60rem;
+    width           : 90%;
+    margin-left     : auto;
+    margin-right    : auto;
+    display: block;
+    /*background-color: brown;*/
+}
+
 .container {
-    display: grid;
+    display           : grid;
     grid-template-rows: auto 1fr auto;
-    background-color:gold;
+    /*background-color  : gold;*/
 }
 
 .img-header {
-  width: 100%;
+    width: 100%;
 }
 
 .img-teaser {
-    width: 100%;
-    clip-path: inset(10px 20px 30px 40px);
+    width    : 100%;
+    clip-path: inset(10px);
 }
 
 h1 {
@@ -23,8 +35,8 @@ h1 {
 }
 
 .post-info {
-    color: lightslategrey;
-    font-weight: 800;
+    color         : lightslategrey;
+    font-weight   : 800;
     text-transform: uppercase;
 }
 
@@ -37,27 +49,28 @@ h1 {
 }
 
 p {
-    color:midnightblue;
+    color: midnightblue;
 }
 
 
 .horizontal-flex-wrap {
-    display        : flex;
-    flex-wrap      : wrap;
-    justify-content: center;
-    background-color: cornflowerblue;
+    display         : flex;
+    flex-wrap       : wrap;
+    justify-content : center;
+    /*background-color: cornflowerblue;*/
 }
 
 .box {
-    flex: 1 1 150px; /* stretching */
-    margin: 5px;
-    background-color:gainsboro;
-    max-width: 100%;
+    flex            : 1 1 150px;
+    /* stretching */
+    /*background-color: gainsboro;*/
+    max-width       : 100%;
 }
 
 .box-teaser {
-    flex: 0 1 500px; /* no stretching */
-    margin: 5px;
-    background-color:lightcyan;
-    
+    flex            : 0 1 500px;
+    /* no stretching */
+    margin          : 5px;
+    /*background-color: lightcyan;*/
+
 }
