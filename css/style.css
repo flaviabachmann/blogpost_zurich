@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
     margin     : 0;
     overflow-x : hidden;
     hyphens    : auto;
@@ -20,6 +23,7 @@ body {
     margin-right      : auto;
     display           : block;
     font-size         : 0.9rem;
+    line-height       : 1.5em;
     padding           : 5px;
     /*background-color: brown;*/
 }
@@ -49,7 +53,7 @@ body {
     margin-left : auto;
     margin-right: auto;
     display     : block;
-    padding-top: 20px;
+    padding-top : 20px;
 }
 
 
@@ -57,7 +61,7 @@ body {
 
     /** Größerer Viewport: Tablet **/
     .img-header {
-        width  : 80%;
+        width: 80%;
     }
 }
 
@@ -65,7 +69,7 @@ body {
 
     /** Großer Viewport: Browserfenster **/
     .img-header {
-        width  : 60%;
+        width: 60%;
     }
 }
 
@@ -87,12 +91,37 @@ body {
 
 }
 
+p {
+    color      : #010334;
+    font-size  : 19px;
+    font-weight: 300;
+}
+
+
 h1 {
-    color: rgb(0, 0, 0);
+    color      : #010334;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size  : 40px;
+    line-height: 1em;
+}
+
+h2 {
+    color: #010334;
+}
+
+h3 {
+    color: #010334;
+}
+
+h4 {
+    color: #010334;
+    font-size  : 22px;
+    font-weight: 300;
 }
 
 h6 {
-    color         : rgb(73, 82, 92);
+    color         : #010334;
     font-weight   : 800;
     text-transform: uppercase;
     letter-spacing: normal;
@@ -105,10 +134,6 @@ h6 {
 
 .lead {
     font-weight: 800;
-}
-
-p {
-    color: midnightblue;
 }
 
 table {
@@ -132,10 +157,10 @@ tbody tr:hover {
 }
 
 .horizontal-flex-wrap {
-    display           : flex;
-    flex-wrap         : wrap;
-    justify-content   : center;
-    gap               : 1.5rem;
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: center;
+    gap            : 1.5rem;
 
     /*background-color: cornflowerblue;*/
 }
@@ -148,12 +173,12 @@ tbody tr:hover {
 }
 
 .box-teaser {
-    flex              : 1 1 345px;
+    flex                 : 1 1 345px;
     /* stretching */
     /* margin            : 10px; */
-    /*background-color: lightcyan;*/
-    border-style      : solid;
-    border-width      : 2px;
+    /*background-color   : lightcyan;*/
+    border-style         : solid;
+    border-width         : 2px;
 }
 
 .box-teaser:hover {
@@ -173,7 +198,7 @@ tbody tr:hover {
 .footer {
     color           : ghostwhite;
     background-color: dimgrey;
-    text-align: center;
+    text-align      : center;
 }
 
 a:link {
