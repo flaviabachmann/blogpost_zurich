@@ -1,8 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+@font-face {
+    font-family: 'FontFiller';
+    font-style: normal;
+    font-weight: 400;
+    src: url("./FontFiller.woff2") format("woff2");
+    unicode-range: U+202F;
+  }
 
 body {
-    font-family: 'Readex Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin     : 0;
     overflow-x : hidden;
     hyphens    : auto;
@@ -93,8 +100,8 @@ body {
 
 p {
     color      : #010334;
-    font-size  : 19px;
-    font-weight: 300;
+    font-size  : 16px;
+    font-weight: 400;
 }
 
 
@@ -117,14 +124,14 @@ h3 {
 h4 {
     color: #010334;
     font-size  : 22px;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 h6 {
     color         : #010334;
-    font-weight   : 800;
+    font-weight   : 700;
     text-transform: uppercase;
-    letter-spacing: normal;
+    letter-spacing: 0.1em;
 }
 
 
