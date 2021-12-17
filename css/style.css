@@ -19,7 +19,6 @@ body {
 
 
 .container {
-    color               : gainsboro;
     display             : grid;
     grid-template-rows  : auto 1fr auto;
     /*background-color  : gold;*/
@@ -165,7 +164,6 @@ h6 {
 
 .teaser-headline {
     color      : #010334;
-    font-family: 'Poppins', sans-serif;
     font-size  : 18px;
     font-weight: 700;
     line-height: 1.2em;
@@ -176,8 +174,17 @@ table {
     border-collapse      : collapse;
     width                : 100%;
     color                : #010334;
+    font-size            : 16px;
+    font-weight          : 400;
+    line-height          : 1.6em;
     font-feature-settings: "tnum";
     margin               : 18px 0px 18px;
+}
+
+th {
+    font-size            : 16px;
+    font-weight          : 700;
+    line-height          : 1.2em;
 }
 
 th,
@@ -229,10 +236,10 @@ tbody tr:hover {
     opacity: 1;
 }
 
-/* 
+
 .img-teaser:hover {
-    opacity: 0.5;
-} */
+    opacity: 0.75;
+}
 
 .footer {
     color           : gainsboro;
