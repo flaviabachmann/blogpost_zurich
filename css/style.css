@@ -53,6 +53,7 @@ body {
         width    : 50%;
         font-size: 1.1rem;
         padding  : 15px;
+        max-width: 40rem;
     }
 }
 
@@ -109,7 +110,8 @@ p {
     font-size            : 16px;
     font-weight          : 400;
     font-feature-settings: "onum";
-    margin               : 18px 0px 18px;
+    margin               : 18px auto 18px;
+    max-width            : 45rem;
 }
 
 
@@ -123,34 +125,38 @@ h1 {
 }
 
 h2 {
-    color      : #010334;
-    font-size  : 32px;
-    line-height: 1.2em;
-    margin     : 72px 0px 18px;
+    color         : #010334;
+    font-size     : 32px;
+    line-height   : 1.2em;
+    letter-spacing: 0.02em;
+    margin        : 72px 0px 18px;
 }
 
 h3 {
-    color      : #010334;
-    font-size  : 18px;
-    font-weight: 700;
-    line-height: 1.2em;
-    margin     : 36px 0px 18px;
+    color         : #010334;
+    font-size     : 18px;
+    font-weight   : 700;
+    line-height   : 1.2em;
+    letter-spacing: 0.05em;
+    margin        : 36px 0px 18px;
 }
 
 h4 {
-    color      : #010334;
-    font-size  : 22px;
-    font-weight: 500;
-    line-height: 1.2em;
-    margin     : 18px 0px 36px;
+    color         : #010334;
+    font-size     : 22px;
+    font-weight   : 500;
+    line-height   : 1.2em;
+    letter-spacing: 0.05em;
+    margin        : 18px 0px 36px;
 }
 
 h5 {
-    color      : #010334;
-    font-size  : 16px;
-    font-weight: 600;
-    line-height: 1.2em;
-    margin     : 36px 0px 18px;
+    color         : #010334;
+    font-size     : 16px;
+    font-weight   : 600;
+    line-height   : 1.2em;
+    letter-spacing: 0.02em;
+    margin        : 36px 0px 18px;
 }
 
 h6 {
@@ -158,16 +164,18 @@ h6 {
     font-size     : 12px;
     font-weight   : 700;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.15em;
+    word-spacing  : 0.1em;
     margin        : 0px 0px 18px;
 }
 
 .teaser-headline {
-    color      : #010334;
-    font-size  : 18px;
-    font-weight: 700;
-    line-height: 1.2em;
-    margin     : 0px
+    color         : #010334;
+    font-size     : 18px;
+    font-weight   : 700;
+    line-height   : 1.2em;
+    letter-spacing: 0.05em;
+    margin        : 0px
 }
 
 table {
@@ -182,19 +190,23 @@ table {
 }
 
 th {
-    font-size  : 16px;
-    font-weight: 700;
-    line-height: 1.2em;
+    font-size     : 16px;
+    font-weight   : 600;
+    line-height   : 1.2em;
+    letter-spacing: 0.02em;
 }
 
 th,
 td {
-    padding: 0.25rem;
-    border : 1px solid #ccc;
+    padding     : 0.25rem;
+    border      : 1px solid #ccc;
+    border-top  : none;
+    border-left : none;
+    border-right: none;
 }
 
 tbody tr:hover {
-    background: #0582ff7c;
+    background: #0582ff10;
 }
 
 .table-txt-right {
